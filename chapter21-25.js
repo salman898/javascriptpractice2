@@ -98,3 +98,57 @@ document.write("User Input: "+val,"<br>Uppercase: "+cap);*/
 /*var num = 35.36;
 var convt = num.toString().replace(".","");
 document.write("Number: "+num,"<br>Result: "+convt);*/
+
+
+// 13. Write a program to take user input and store username in a variable.
+//  If the username contains any special symbol among [@ . , !], 
+//  prompt the user to enter a valid username.For character codes of [@ .
+
+
+// var username = prompt("Enter Username: ");
+// var 
+
+
+
+// 14. You have an array A = [cake”, “apple pie”, “cookie”, “chips”, 
+// “patties”] Write a program to enable “search by user input” in an array.
+//  After searching, prompt the user whether the given item is found in the 
+//  list or not. Note: Perform case insensitive search. Whether the user enters 
+//  cookie, Cookie, COOKIE or coOkIE,program should inform about its availability.
+
+
+// var input = prompt("Welcome To Salman's Bakery. What Do you Want ");
+// var arr = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var search = input.match(arr);
+// document.write(arr+"Is on "+index[arr],search);
+
+
+// 16. Write a program to convert the following string to an array using 
+// string split method. var university = “University of Karachi”;
+//  Display the elements of array in your browser.
+
+
+// var university = "University of Karachi";
+// var convert = university.split("");
+// document.write(convert);
+
+
+
+// 17. Write a program to display the last character of a user input.
+
+/*var name = prompt("Enter Any Character: ");
+var last = name.charAt(name.length-1);
+document.write("User Input: "+name,"<br>Last Character Of input: "+last);*/
+
+
+// 18. You have a string “The quick brown fox jumps over the lazy dog”. 
+// Write a program to count number of occurrences of word “the” in given string.
+
+/*var sentence = "The quick brown fox jumps over the lazy dog";
+var c = sentence.split("the").length - 1
+document.write("Text: "+sentence,"<br>There are "+ c +" Occurence(s) of word 'the'");*/
+
+
+
+
+
